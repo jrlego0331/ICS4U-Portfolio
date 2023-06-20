@@ -5,7 +5,8 @@ import numpy as np
 constG = 6.67 * (10**-1) #Real G = 6.67 * (10**-11)
 bodys = np.array([])
 bodyCount = 3
-plt.title('Orbits')
+suptitle =  'G = ' + str(constG)
+plt.suptitle(suptitle)
 
 #distance between two xy vecter
 def vecDistance(vec1, vec2):
@@ -38,6 +39,7 @@ class body:
 #Procedural bodys init
 for i in range(bodyCount):
     bodys = np.append(bodys, body(35, [-200/(bodyCount+1) + i * 200/(bodyCount+1), -200/(bodyCount+1) + i * 200/(bodyCount+1)], [0.4 + -0.4*i, 0]))
+
 
 while True:
     plotX, plotY = np.array([]), np.array([])
