@@ -5,7 +5,7 @@ Welcome to Geminarow! This is a match-three puzzle game inspired by the classic 
 Written in Python language, this game incorporates components such as a game board, basic gem-matching mechanics, and a scoring system, providing players with an engaging and straightforward gameplay experience. It covers a variety of expectations of ICS4U such as basic programming concepts, software development, and modular programming. 
 
 Please read this document carefully and follow the instructions to install the program and get the most out of your gaming experience.
-
+![gameplay](https://github.com/jrlego0331/ICS4U-Portfolio/blob/master/ICS4U_GroupProject/gameplay.PNG)
 
 ## Key Features
 - Grid-based game board displaying 6 different types of gems
